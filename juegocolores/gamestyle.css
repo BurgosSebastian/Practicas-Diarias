@@ -1,0 +1,30 @@
+
+body{
+    height: 500px;
+    width: auto;
+}
+
+.cont-gral{
+    display: flex;
+    justify-content:space-evenly;
+    height: 300px;
+    width:auto;
+    background-color: transparent;
+    align-items: center;
+}
+
+.cntcolor{
+    display: inline-flex;
+    color: rgb(0, 62, 116);
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamecolor{
+    font-size: 50px;
+    height: 100px;
+    width: auto;
+    text-align: center;
+}

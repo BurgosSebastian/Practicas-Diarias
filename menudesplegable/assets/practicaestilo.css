@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+.nav{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+}
+
+.cont-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.titulo-nav{
+    color: rgb(0, 180, 0);
+    min-width: fit-content;
+}
+
+.pest-nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-grow: 1;
+    justify-content:space-evenly;
+    color: rgb(0, 180, 0);
+}
+
+.pest-links{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    --flecha : rotate(-90deg);
+    --cuadro : polygon(0 0, 100% 0, 100% 0, 0 0);
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.flecha{
+   transform: var(--flecha);
+   transition: transform .3s;
+}
+
+.pest-links:hover{
+    background-color: rgb(70, 70, 70);
+    --flecha: rotate(0deg);
+    --cuadro : polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    border: solid 2px rgb(0, 180, 0);
+}
+
+.pest-link{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.pest-link:hover{
+    background-color: rgb(70, 70, 70);
+    border: solid 2px rgb(0, 180, 0);
+}
+
+
+.anchors{
+    display: flex;
+    color: rgb(0, 180, 0);
+    text-decoration: none;
+}
+
+.cont-anidados{
+    list-style: none;
+    transition: clip-path .3s;
+    position: absolute;
+    left: -2px;
+    bottom: 0;
+    width:max-content;
+    transform: translateY(100%);
+    clip-path: var(--cuadro);
+    background-color: black;
+    border: solid 2px rgb(0, 180, 0);
+}
+
+.link-anidados{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.link-anidados:hover{
+    
+    background-color: rgb(70, 70, 70);
+}
+
+.img-nav{
+    display: none;
+}
+
+@media (max-width:800px){
+    .img-nav{
+        display: flex;
+    }
+
+    .pest-nav{
+        position: fixed;
+        max-width: 400px;
+        width: 100%;
+        top: 70px;
+        bottom: 0;
+        left: 0;
+        background-color: #000;
+        overflow-y: auto;
+        display: grid;
+        grid-auto-rows: max-content;
+    }
+
+    .flecha{
+        margin-right: 20px;
+        margin-left: auto;
+    }
+
+    .cont-anidados{
+        display: grid;
+        width: 100%;
+        position: unset;
+        width: 100%;
+        transform: translateY(0);
+        height: 0;
+    }
+}

@@ -1,0 +1,121 @@
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+body{
+    padding-top: 10%;
+    background-color: #444;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.cont-img{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    padding: 15px;
+ width: 130px;
+ height: 60px;
+}
+
+.cont-solapa{
+    position: fixed;
+    display:inline-block;
+    width: auto;
+    transform: translateY(20%);
+}
+
+.tit-solapa{
+    display: flexbox;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 30px;
+    margin: 10px;
+    transform: translateX(-95%);
+    transition: ease-in 0.4s;
+    cursor: pointer;
+}
+
+.tit-solapa:hover{
+    background-color: rgb(255, 115, 0);
+    border-radius: 10px;
+    padding: 8px;
+    padding-left: 50px;
+    margin: 5px;
+    transform: translateX(-10%);
+}
+
+.cont-nav{
+    display: flex;
+    background-color: white;
+    border-bottom: solid 0.5mm rgb(255, 80, 0);
+}
+
+ul{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+    
+    }
+
+li{
+    display: flex;
+    font-size: 17px;
+    padding: 8px;
+
+}
+
+.tipob{
+    font-family: sans-serif;
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.tipoa{
+    font-family: sans-serif;
+    color: #999;
+    cursor:pointer;
+}
+
+.tipoa:hover{
+    font-family: sans-serif;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    text-decoration-color: rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
+    transition-duration: 0.2s;
+    background-color: #eee;
+}
+
+.tipob:hover{
+    font-family: sans-serif;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    text-decoration-color: rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
+    transition-duration: 0.2s;
+    background-color: #eee;
+}
+

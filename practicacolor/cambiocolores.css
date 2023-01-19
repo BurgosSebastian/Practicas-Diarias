@@ -1,0 +1,57 @@
+body{
+    background-color:white;
+}
+
+h4{
+    display: inline-block;
+    font-family:serif;
+    font-weight: 50;
+    color: blue;
+    font-size: 30px;
+    padding: 3px;
+    margin: 2px;
+}
+
+.nav-centro{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:7px 7px 10px rgb(180, 180, 180);
+}
+
+.nav-palabras{
+    display: inline-block;
+    float: right;
+
+}
+li{
+    display: inline-flex;
+    padding: 5px;
+}
+
+.contenedor{
+    height:auto
+}
+
+h2 {
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(255, 0, 157);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+    background-color: black;
+}
+
+.boton{
+    border: solid 2px black;
+    background-color: cyan;
+    border-radius: 10px;
+    position: absolute;
+    left: 45%;
+    font-size: 30px;
+}
+
+.colortext{
+    color: white;
+}

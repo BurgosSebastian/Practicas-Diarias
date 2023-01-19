@@ -1,0 +1,63 @@
+body{
+    height: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.cont-reloj{
+    margin-top: 15%;
+    display: block;
+    text-align: center;
+    height: 170px;
+    width: auto;
+}
+
+.horas{
+    display: inline-flex;
+    font-size: 150px;
+    font-family:monospace ;
+    color: rgb(0, 190, 0);
+}
+
+.minutos{
+    display: inline-flex;
+    font-size: 150px;
+    font-family: monospace ;
+    color: rgb(0, 190, 0);
+}
+
+.segundo{
+    display: inline-flex;
+    font-size: 150px;
+    font-family: monospace;
+    color: rgb(0, 190, 0);
+}
+
+.cont-ampm{
+    position: absolute;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 20%;
+    color: rgb(0, 190, 0);
+    font-family: sans-serif;
+}
+
+.cont-dias{
+    width: 100%;
+    height: auto;
+    display: table;
+    text-align: center;
+    align-items: center;
+}
+
+ul{
+    height: auto;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(0, 190, 0);
+}
