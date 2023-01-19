@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cont-nav{
+    justify-content:space-evenly;
+    display: flex;
+    background-color: rgb(0, 0, 136);
+    width: auto;
+    height: 50px;
+    align-items: center;
+}
+
+.azul{
+    background-color: aqua;
+}
+
+.rojo{
+    background-color: brown;
+}
+
+#hola{
+    background-color: black;
+}
+
+#chau{
+    background-color: azure;
+}
+
+ul{
+    float: inline-end;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 10px;
+    display:inline-flex;
+    color: rgb(4, 119, 0);
+}
+
+.cont-img{
+    float: inline-start;
+    display: inline-flex;
+}
+
+.imglogo{
+    display: inline;
+    height: 30px;
+    width: 30px;
+}
